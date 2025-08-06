@@ -2,46 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the documentation for **phpjvm**, a modern, high-performance implementation of the PHP language built on top of the Java Virtual Machine (JVM).
 
-## Getting Started
+phpjvm brings the flexibility and familiarity of PHP to the robust and powerful Java ecosystem. It supports a wide range of features from **PHP 8.2+**, allowing you to run your existing skills in new environments.
 
-Get started by **creating a new site**.
+## How It Works
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+At its core, phpjvm functions as a compiler, much like `javac` for Java. It performs the following steps:
 
-### What you'll need
+1.  **Parse:** It reads your PHP source code (`.php` files).
+2.  **Compile:** It compiles the source code directly into standard JVM bytecode.
+3.  **Execute:** The resulting bytecode can be executed on any compliant Java Virtual Machine (JVM).
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+This approach allows your PHP code to benefit from the performance, stability, and massive library ecosystem of the Java platform.
 
-## Generate a new site
+## Ready to Dive In?
 
-Generate a new Docusaurus site using the **classic template**.
+This documentation will guide you through installing phpjvm and compiling your first project.
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+➡️ **Let's get started by heading to the [Installation guide](./docs/category/getting-started)**.
