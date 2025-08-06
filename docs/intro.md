@@ -22,4 +22,4 @@ This approach allows your PHP code to benefit from the performance, stability, a
 
 This documentation will guide you through installing phpjvm and compiling your first project.
 
-➡️ **Let's get started by heading to the [Installation guide](./docs/category/getting-started)**.
+➡️ **Let's get started by heading to the [Installation guide](./category/getting-started)**.
