@@ -66,7 +66,7 @@ const config = {
         title: 'phpjvm docs',
         logo: {
           alt: 'phpjvmlogo',
-          src: 'img/logo.svg',
+          src: 'img/docusaurus.png'
         },
         items: [
           {
